@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Advanced\" />
+      <Folder Include="Basic\Library\" />
+      <Folder Include="Basic\Playback\" />
+      <Folder Include="Basic\Queue\" />
+      <Folder Include="Core\Detection\" />
+      <Folder Include="Core\Engine\" />
+      <Folder Include="Core\Infrastructure\" />
+      <Folder Include="Core\Parsing\" />
+      <Folder Include="Core\Sources\" />
+      <Folder Include="Core\Storage\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="11.0.0-rc.3.26522.148" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="11.0.0-rc.3.26522.148" />
+      <PackageReference Include="NAudio" Version="3.4.0-preview.1" />
+      <PackageReference Include="TagLibSharp" Version="2.3.0" />
+    </ItemGroup>
+
+</Project>
